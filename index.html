@@ -4,214 +4,252 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
-    <link href="css/font-awesome.css" type="text/css" rel="stylesheet">
-    <title>Samuel Airehrour</title>
+    <title>SA - Samuel Airehrour</title>
+    <script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+        }
+    </script>
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/fontawesome-all.css"> -->
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
 </head>
 <body>
-    <!-- Header -->
+    <!-- Navigation -->
     <header>
-        <div class="menu-toggler">
-            <div class="bar half start"></div>
-            <div class="bar"></div>
-            <div class="bar half end"></div>
-        </div>
-            <nav class="top-nav">
-                <ul class="nav-list">
-                    <li><a href="#" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
-                    <li><a href="#services" class="nav-link">Services</a></li>
-                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                    <li><a href="#experience" class="nav-link">Experience</a></li>
-                    <li><a href="#contact" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="landing-text">
-                <h1>Samuel Airehrour</h1>
-                <h6>Product Manager | Full Stack Software Engineer</h6>
-            </div>
-    </header>
-    <!-- About -->
-    <section class="about" id="about">
         <div class="container">
-            <div class="profile-img">
-                <img src="images/sam2.png" alt="">
-            </div>
-            <div class="about-details">
-                <div class="about-heading">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
-                </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae nesciunt perferendis illo earum       sed deleniti vitae! Labore facilis doloremque nam doloribus magnam dolor, libero quod ex, nobis, magni consequatur!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, corrupti blanditiis quasi dolorum minus quod atque. A odit neque eum quia iste assumenda modi aliquid deserunt, exercitationem inventore reprehenderit laboriosam.
-                </p>
-            </div>
-            <div class="social-media">
-                <ul class="nav-list">
-                    <li><a href="#" class="icon-link"><i class="fab fa-github-square"></i></a></li>
-                    <li><a href="#" class="icon-link"><i class="fab fa-twitter-square"></i></a></li>
-                    <li><a href="#" class="icon-link"><i class="fab fa-linkedin"></i></a></li>
+            <nav class="navbar navbar-expand-lg navbar-light py-4">
+                <h1>
+                    <a class="navbar-brand" href="index.html">
+                        SA
+                    </a>
+                </h1>
+                <button class="navbar-toggler ml-md-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-lg-auto text-center">
+                    <li class="nav-item active mr-lg-4">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link scroll" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item mr-lg-4">
+                        <a class="nav-link scroll" href="#experience">Experience</a>
+                    </li>
+                    <li class="dropdown nav-item mr-lg-4">
+                        <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle ">
+                            Pages
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li class="nav-item">
+                                <a href="#blog" class="nav-link scroll">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projects" class="nav-link scroll">Projects</a>
+                            </li>
+                            <div class="dropdown-divider"></div>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact">Contact</a>
+                    </li>
                 </ul>
+            </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-layer">
+            <div class="container">
+                <div class="row agile_banner_info">
+                    <div class="col-md-7 agile_banner_margin">
+                        <h5>Hi</h5>
+                        <h2>My name is <span>Samuel</span></h2>
+                        <h4>Full Stack Software Engineer</h4>
+                        <p>I'm a Full Stack Software Engineer whose languages of Expertise include: Python and JavaScript and a little of TypeScript.</p>
+                        <a href="#about">
+                            Read More
+                        </a>
+                    </div>
+                    <div class="col-md-5 image_margin">
+                        <img src="images/sam2.png" alt="" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section class="about py-5" id="about">
+        <div class="container py-3">
+            <h3 class="heading">About Me</h3>
+            <div class="row about-grids">
+                <div class="col-lg-4">
+                    <h4>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int.</h4>
+                    <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus. Aliquam erat volutpat. Nullam ac mattis mi. Donec tincidunt leoelit dictum viverra luctus.</p>	
+                </div>
+                <div class="col-lg-4 col-md-6 my-lg-0 my-5">
+                    <img src="images/sam2.png" alt="" class="img-fluid" />
+                </div>
+                <div class="col-lg-4 bar-grids">
+                    <div class="wthree_skills">
+                        <h6>HTML5<span> 95% </span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 95%">
+                            </div>
+                        </div>
+                        <h6>CSS3<span> 70% </span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 70%">
+                            </div>
+                        </div>
+                        <h6>JAVASCRIPT<span>90% </span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 90%">
+                            </div>
+                        </div>
+                        <h6>REACTJS<span>85% </span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 85%">
+                            </div>
+                        </div>
+                        <h6>NODEJS<span>85% </span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 85%">
+                            </div>
+                        </div>
+                        <h6>MONGODB<span>75% </span></h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" style="width: 75%">
+                            </div>
+                        </div>
+                        <h6>MYSQL<span>50% </span></h6>
+                        <div class="progress prgs-w3agile-last">
+                            <div class="progress-bar progress-bar-striped active" style="width: 50%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Services -->
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Services</h1>
-                <h6>What can i do for you</h6>
-            </div>
-            <div class="my-skills">
-                <div class="skill">
-                    <div class="icon-container">
-                        <i class="fas fa-layer-group"></i>
-                    </div>
-                    <h1>Web Design</h1>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate 
-                        blanditiis minima consequatur aperiamofficial excepturi.
-                    </p> 
+    <section class="services py-5" id="services">
+        <div class="container py-3">
+            <h3 class="heading">Services</h3>
+            <div class="row service-grids">
+                <div class="col-lg-4 col-md-6 agile w3-icon-grid1">
+                    <h3><i class="fas mr-2 fa-cogs" aria-hidden="true"></i> UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
                 </div>
-                <div class="skill">
-                    <div class="icon-container">
-                        <i class="fas fa-code-group"></i>
-                    </div>
-                    <h1>Web Development</h1>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate 
-                        blanditiis minima consequatur aperiamofficial excepturi.
-                    </p> 
+                <div class="col-lg-4 col-md-6 agile mt-md-0 mt-sm-5 mt-4 w3-icon-grid1">
+                    <h3><i class="fas mr-2 fa-mobile" aria-hidden="true"></i>Mobile Apps</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
                 </div>
-                <div class="skill">
-                    <div class="icon-container">
-                        <i class="fas fa-layer-group"></i>
-                    </div>
-                    <h1>Product Strategies</h1>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate 
-                        blanditiis minima consequatur aperiamofficial excepturi.
-                    </p> 
+                <div class="col-lg-4 col-md-6 agile mt-lg-0 mt-sm-5 mt-4 w3-icon-grid1">
+                    <h3><i class="fas mr-2 fa-laptop" aria-hidden="true"></i>Web Developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
                 </div>
-            </div>
-        </div>
-    </section> 
-
-    <!-- Porfolio -->
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Portfolio</h1>
-                <h6>View some of my recent work</h6>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img">
-                    <img src="images/groupchat.png" alt="">
+                <div class="col-lg-4 col-md-6 agile mt-sm-5 mt-4 w3-icon-grid1">
+                    <h3><i class="fas mr-2 fa-camera" aria-hidden="true"></i> Photoshop</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
                 </div>
-                <div class="portfolio-description">
-                    <h6>Application Development</h6>
-                    <h1>Chat Application</h1>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate 
-                        blanditiis minima consequatur aperiamofficial excepturi.
-                    </p> 
-                    <a href="#" class="cta">View Details</a>
+                <div class="col-lg-4 col-md-6 agile mt-sm-5 mt-4 w3-icon-grid1">
+                    <h3><i class="fab mr-2 fa-accusoft" aria-hidden="true"></i>Software</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
                 </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-description">
-                    <h6>Application Development</h6>
-                    <h1>Weather Application</h1>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate 
-                        blanditiis minima consequatur aperiamofficial excepturi.
-                    </p> 
-                    <a href="#" class="cta">View Details</a>
-                </div>
-                <div class="portfolio-img">
-                    <img src="images/weather app.jpg" alt="">
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="portfolio-img">
-                    <img src="images/urlshortener.png" alt="">
-                </div>
-                <div class="portfolio-description"> 
-                    <h6>Api Development</h6>
-                    <h1>Url Shortener</h1>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate 
-                        blanditiis minima consequatur aperiamofficial excepturi.
-                    </p> 
-                    <a href="#" class="cta">View Details</a>
+                <div class="col-lg-4 col-md-6 agile mt-sm-5 mt-4 w3-icon-grid1">
+                    <h3><i class="fas mr-2 fa-chart-pie" aria-hidden="true"></i>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam. placerat placerat dolor. Vestibulum</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience -->
-    <section class="experience" id="experience">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Work Experience</h1>
-                <h6>Past and current jobs</h6>
-            </div>
-            <div class="timeline">
-                <ul>
-                    <li class="date" data-date="2019 - Present">
-                        <h1>Freelance</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sunt itaque totam necessitatibus.</p>
-                    </li>
-                    <li class="date" data-date="June 2018 - December 2018">
-                        <h1>Electrical Engineer Intern</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sunt itaque totam necessitatibus.</p>
-                    </li>
-                    <li class="date" data-date="July 2017 - October 2017">
-                        <h1>Math Tutor</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sunt itaque totam necessitatibus.</p>
-                    </li>
-                </ul>
+    <!-- Blog -->
+    <section class="blog py-5" id="blog">
+        <div class="container py-3">
+            <h3 class="heading">Blog</h3>
+            <div class="row blog-grids">
+                <div class="col-lg-7">
+                    <h4 class="left-grid-blog">I write beautiful things</h4>
+                    <p class="left-grid-blog">Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor.
+                    Vestibulum at dui nunc.</p>
+                    <div class="row">
+                        <div class="col-md-6 pr-md-0 w3ls">
+                            <div class="blog-grid1">
+                                <h5>25th June</h5>
+                                <h4>Eget pulvinar neq </h4>
+                                <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-md-0 mt-3 w3ls">
+                            <div class="blog-grid1">
+                                <h5>25th June</h5>
+                                <h4>Eget pulvinar neq </h4>
+                                <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 mt-lg-0 mt-5 blog-grid1 w3ls">
+                    <h5>25th June</h5>
+                    <h4>Eget pulvinar neque pharetra </h4>
+                    <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor.
+                    Vestibulum at dui nunc. eget pulvinar neque pharetra ac int. In euismod faucibus quam. placerat placerat dolor. Nullam
+                    eu elit neque lectus. Polite sadipscing elitr, sed diam nonumy eirmod.</p>
+                </div>
             </div>
         </div>
     </section>
 
-
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Contact</h1>
-                <h6>Let's Work Together</h6>
-            </div>
-            <form method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                <label for="services">Services:</label>
-                <select name="services" id="service">
-                    <option value="">Web Design</option>
-                    <option value="">Web Development</option>
-                    <option value="">Web Design/Development</option>
-                </select>
-                <label for="subject">Subject:</label>
-                <textarea name="subject" id="subject" cols="30" rows="10"></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="copyright">
-        <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
-            <p>&copy: 2020 Samuel Airehrour</p>
-        </div>
-    </footer>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script> 
+    <script src="js/SmoothScroll.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
 </body>
 </html>

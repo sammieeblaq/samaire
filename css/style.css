@@ -1,5 +1,436 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
+
+a:hover{
+	text-decoration:none;
+}
+input[type="button"],input[type="submit"],.contact-form input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin:0;	
+}	
+p {
+	margin:0;
+}
+ul {
+	margin:0;
+	padding:0;
+}
+label {
+	margin:0;
+}
+img {
+	width:100%;
+}
+
+/* Header */
+/* .navbar {
+} */
+
+header h1 {
+    line-height: 0;
+}
+
+/* a.navbar-brand i {
+    color: #fd5c63;
+} */
+
+header h1 a span {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.navbar-brand {
+    font-size: 1em;
+    text-transform: capitalize;
+    display: initial;
+    margin: 0;
+}
+.navbar {
+    padding: 0.5rem 0rem;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: rgba(254, 59, 48, 0.6);
+}
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+    color: #fff;
+}
+.navbar-brand::first-letter {
+    border-bottom: 3px solid;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .show>.nav-link,
+.navbar-nav .nav-link.show,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link {
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+     border-bottom: 2px solid;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 2px solid transparent;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.navbar-light .navbar-nav .dropdown-menu a.nav-link {
+    color: #333;
+    padding-left: 1em;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
+.navbar-light .navbar-nav .dropdown-menu a.nav-link:hover {
+    color: #999;
+    border: none;
+     border-bottom: 2px solid transparent;
+}
+li.nav-item {
+    padding-top: 5px;
+}
+.dropdown-menu li.nav-item {
+    padding-top: 0px;
+}
+
+.w3ls-btn {
+    letter-spacing: 1px;
+}
+header {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+}
+
+.banner{
+    background: url("../images/b1.jpg") no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+    min-height: 765px;
+	position: relative;
+}
+.banner-layer {
+    /* background: url(../images/layer.png)repeat; */
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 765px;
+}
+.agile_banner_margin {
+    padding: 18em 0em 0em;
+}
+.image_margin {
+    margin-top: 8em;
+}
+.agile_banner_info h2 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.agile_banner_info h4 {
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-top: 8px;
+    font-weight: 600;
+    margin-bottom: 25px;
+     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.agile_banner_info h5 {
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: 600;
+     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.agile_banner_info p{
+    color: #fff;
+    margin: 1em 0;
+    line-height: 2em;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+.agile_banner_info a {
+    padding: 11px 35px;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 1.5em;
+    border-radius: 35px;
+}
+.agile_banner_info a:hover {
+    background: #fff;
+    border: 2px solid #fff;
+    color: #333;
+}
+
+/* About */
+.about-grids h4 {
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+     color: #333;
+}
+.about-grids p {
+    color: #666;
+    margin: 1.5em 0;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+
+.w3_agile_head h5 span{
+	color:#fff;
+}
+.skills p{
+	color:#fff;
+}
+.w3layouts_skills_grids{
+	margin:3em 0 0;
+}
+.w3ls_about_guage {
+    text-align: center;
+}
+.w3ls_about_guage h4 {
+    font-size: 1.3em;
+    color: #fff;
+    margin-top: 30px;
+}
+.w3_head_pop h3 {
+    color: #000000;
+    font-size: 3em;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+	text-align: center;
+}
+.w3_head_pop h3 span {
+    color: #04b962;
+}
+.w3_head_pop.skills_span span {
+    color: #fff;
+}
+h3.skills_w3 {
+    color: #0cbb67;
+}
+/*-- //skills --*/
+/*-- /extra skills --*/
+h3.agile_tittle.two {
+    color: #252525;
+}
+.bargrids-left {
+    margin-right: 40px;
+}
+.about-grids a {
+    padding: 11px 35px;
+    color: #fff;
+    background: #333;
+    border: 2px solid #333;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 35px;
+}
+.about-grids a:hover {
+    color: #333;
+    background: none;
+    border: 2px solid #333;
+}
+.bar-grids h4 {
+    font-size: 1.6em;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-bottom: 1.4em;
+    /* border-bottom: 1px dashed #ffffff; */
+    padding-bottom: 0em;
+    font-weight: 600;
+}
+
+.bar-grids h4 span.glyphicon {
+    margin-right: 0.8em;
+    color: #ecb731;
+}
+
+.progress {
+    height: 10px;
+    margin-bottom: 2.2em;
+    background-color: #dadde0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.prgs-w3agile-last {
+    margin-bottom: 0!important;
+}
+
+.progress-bar {
+    background-color: #191919;
+}
+
+.bar-grids h6 {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+}
+
+.bar-grids h6 span {
+    float: right;
+    font-size: 1em;
+}
+
+.progress-striped .progress-bar,
+.progress-bar-striped {
+    background-image: none!important;
+}
+
+h3.heading {
+    font-size: 45px;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 5px;
+	position: relative;
+}
+h3.heading:after {
+    position: absolute;
+    content: '';
+    width: 10%;
+    height: 3px;
+    background: #333;
+    left: 45%;
+    bottom: -18%;
+}
+.about-grids {
+    margin-top: 5em;
+}
+
+/* Services */
+.services {
+    background: #191919;
+}
+.service-grids {
+    margin-top: 5em;
+}
+.w3-icon-grid1 h3 {
+    text-transform: capitalize;
+    color: #999;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.w3-icon-grid1 {
+    position: relative;
+}
+.w3-icon-grid1 h3 i {
+      color: #fff;
+    position: absolute;
+    opacity: .1;
+    font-size: 50px;
+}
+
+.w3-icon-grid1 p {
+    color: #666;
+    margin: 1.5em 0;
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 15px;
+}
+/*-- // services --*/
+
+/*-- experience --*/
+/* .exp-grids {
+    margin-top: 5em;
+}
+.exp-grids h4,.exp-grid1 h4 {
+    text-transform: capitalize;
+    color: #aaa;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.exp-grids h5,.exp-grid1 h5  {
+    font-size: 16px;
+    color: #666;
+    font-weight: 600;
+}
+.exp-grids p {
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 15px;
+    color: #666;
+    border-left: 3px solid #333;
+    padding-left: 3em;
+}
+.exp {
+    text-align: right;
+    padding-right: 3em;
+     background: #222;
+}
+.exp-grid1 p {
+    line-height: 28px;
+    letter-spacing: .5px;
+    font-size: 15px;
+    color: #666;
+    border-right: 3px solid #333;
+    padding-right: 3em;
+    text-align: right;
+}
+.exp1 {
+    padding-left: 3em;
+     background: #222;
+} */
