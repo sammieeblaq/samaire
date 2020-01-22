@@ -616,7 +616,7 @@ a.sb {
     font-weight: 600;
     font-size: 15px;
     letter-spacing: 1px;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 35px;
     float: right;
 }
@@ -681,4 +681,32 @@ footer {
 }
 .copyright a:hover {
     color: #fff;
+}
+
+/* To Top */
+#toTop {
+	display: none;
+     text-decoration: none;
+    position: fixed;
+    bottom: 40px;
+    right: 2%;
+    overflow: hidden;
+    z-index: 999;
+    width: 36px;
+    height: 36px;
+    border: none;
+    text-indent: 100%;
+    border: 2px solid #191919;
+    background: #191919 url("../images//arr.png") no-repeat 0px 0px;
+    border-radius: 50%;
+}
+#toTopHover {
+	width: 40px;
+	height: 40px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
 }
